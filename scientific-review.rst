@@ -70,57 +70,68 @@ Introduction
 - scientist typically have a few scientific projects -- more like a software project
 
 
-Abstract
---------
+Learning from open source software projects to improve scientific review
+------------------------------------------------------------------------
 
-Over the last decade, scientists, institutions, publishers and funding agencies
-have made tremendous strides in the way scientific research output is
-disseminated and accessed. With the increase of open-access journals, the
-increasing availability of articles on PubMed Central, arXiv.org and in general
-on the Internet, larger quantities of scientific information are available than
-ever before. However, the increasing interdisciplinary nature of research, the
-limited set of peer-reviewers assigned to an article, and the limited
-availability of expert reviewers has resulted in increased variability in the
-quality of available information. This has led to an even greater importance
-being placed on which journal publishes an article rather than on the content
-itself. The aim of this paper is to identify potential problems with the current
-review system and to propose an alternate open evaluation framework for peer
-review.
+Satrajit S. Ghosh (MIT), Arno Klein (Columbia University), Brian Avants (University of Pennsylvania), K. Jarrod Millman (University of California, Berkeley)
 
-In an ideal world, science should be collaborative, open, repeatable and
-efficient. The intent of the current “peer review” system is to enhance the
-collaborative aspect of science by improving the quality of submitted manuscripts
-through constructive judgment of one’s peers. However, given the massive influx
-of articles and limited time of reviewers, there is a tremendous pressure to
-retain only the very “best” for a given journal. We propose that in this
-technological age with instant access to information and social networks,
-scientific publishing can draw from the ideas, experience and the technology
-available for code review in open source projects.
+Over the last decade, scientists, institutions, publishers and funding
+agencies have made tremendous strides in the way scientific research
+is disseminated and accessed. With the increase of open-access
+journals, availability of articles on PubMed Central, arXiv.org and
+elsewhere on the Internet, larger quantities of scientific information
+are available than ever before. However, the increasingly
+interdisciplinary nature of research and limited availability of
+expert reviewers has resulted in high variability in the quality and
+speed of the review process. This has led to an even greater
+importance being placed on which journal publishes an article and
+bibliometrics rather than on the content of the article. The aim of
+this paper is to propose an alternate open evaluation framework for
+peer review.
 
-First, reviews need not be restricted to a select few reviewers, but
-rather encourage a distributed review process. In any complex software
-project, there are specialists who focus on certain components of the
-software. However, code review is not limited to the specialists. When
-multiple eyes look at the code improves it and also encourages
-reviewers themselves to write better code. Opening up scientific
-reviews to the community will ensure that the people most interested
-and knowledgeable on a topic review it thereby speeding up the review
-process.  Second, there is a fair bit of open communication and
-discussion over code review before major code changes get
-accepted. Although certain journals have an interactive discussion
-before a paper is accepted, the discussion is still behind closed
-doors and limited to a small set of reviewers. The interdisciplinary
-papers today require more than two to three reviewers to adequately
-spot problems.  Finally, an open and recorded review it ensures that
-there is a timestamp on the work that has been done, an
-acknowledgement of who performed the research and the possibility of
-capturing errors early on in the process. An open review process
-allows for scientific discourse which appears to be significantly
-reduced in today’s publish or perish mentality. Such scientific
-discourse or contributions could itself be seen as a quantitative
-assessment of the importance of the research.
+In an ideal world, science should be collaborative, open, repeatable
+and efficient. The intent of the current “peer review” system is to
+enhance the collaborative aspect of science by improving the quality
+of submitted manuscripts through critical feedback from one’s
+peers. However, given the massive influx of articles and limited time
+and number of reviewers, there is a tremendous pressure to retain only
+the very “best” for a given journal. We propose that in this
+technological age with instant access to information and social
+networks, scientific publishing can draw from the ideas, experience
+and technology available for code review in open source software
+projects.
 
-It is in everybody’s scientific interest that every article is the best that it
-can be. An open review process can improve the quality of articles submitted,
-can improve the research through constructive criticism and can improve the time
-period between initial submission and general acceptance of the article.
+First, use a distributed review process instead of restricting it to a
+few reviewers. In any complex software project, there are specialists
+who focus on certain components of the software. However, code review
+is not limited to specialists. When multiple eyes look at code, the
+code improves, bugs are caught, and all participants are encouraged to
+write better code. Opening up scientific reviews to the community will
+also ensure that the people most interested and knowledgeable on a
+topic review it, thereby speeding up the review process. Furthermore,
+the interdisciplinary papers today require far more than two to three
+reviewers to adequately spot problems.  Second, ensure an open and
+recorded discourse between authors and reviewers. Although certain
+journals have an interactive discussion before a paper is accepted,
+the discussion is still behind closed doors and limited to a small set
+of reviewers. An open and recorded review ensures that there is a
+timestamp on the work that has been done, an acknowledgement of who
+performed the research and the possibility of rectifying errors early
+on in the process. Such discourse can itself be used to quantitatively
+assess the importance of a submission. Third, make data and software
+used for the research be available as part of the submission
+process. This not only ensures transparency and helps reviewers but
+will also enhance reproducibility and encourage method reuse. We will
+demonstrate how these ideas can improve the quality of published
+articles in the highly interdisciplinary field of neuroimaging.
+
+It is in everyone’s scientific interest that every reviewed article is
+the best that it can be. An open review process can improve the
+quality of articles and research through constructive criticism, and
+reduce the time period between initial submission and general
+acceptance of an article. In the long run, the review process need not
+be limited to publication, but can be engaged throughout the process
+of research, from inception through planning, execution, and
+documentation. This not only facilitates collaborative research, but
+also ensures that the best decisions are taken at every stage in the
+evolution of a project.
