@@ -1,79 +1,25 @@
-.. note::
+========================================================================
+Learning from open-source software projects to improve scientific review
+========================================================================
 
-    `Beyond open access: visions for open evaluation of scientific papers by
-    post-publication peer review
-    <http://www.frontiersin.org/Computational%20Neuroscience/specialtopics/beyond_open_access__visions_fo/137>`_
-    
-    #. Open evaluation is defined as `an ongoing post-publication process of
-       transparent peer review and rating of papers`
-    
-    #. They are looking for papers that "focus on constructive ideas and
-       comprehensive designs for open evaluation systems."
-    
-    #. They raise a number of interesting questions, which we should keep in
-       mind as we work on this article:
-    
-       - Should the reviews and ratings be entirely transparent, or should some
-         aspects be kept secret?
-        
-       - Should other information, such as paper downloads be included in the
-         evaluation?
-        
-       - How can scientific objectivity be strengthened and political
-         motivations weakened in the future system?
-        
-       - Should the system include signed and authenticated reviews and
-         ratings?
-        
-       - Should the evaluation be an ongoing process, such that promising
-         papers are more deeply evaluated?
-        
-       - How can we bring science and statistics to the evaluation process
-         (e.g. should rating averages come with error bars)?
-        
-       - How should the evaluative information about each paper (e.g. peer
-         ratings) be combined to prioritize the literature?
-        
-       - Should different individuals and organizations be able to define their
-         own evaluation formulae (e.g.  weighting ratings according to different
-         criteria)?
-        
-       - How can we efficiently transition toward the future system?
-
-:author: K. Jarrod Millman
-:email: millman@berkeley.edu
-:institution: University of California Berkeley
-
-:author: Satra Ghosh
-:email: 
+:author: Satrajit Ghosh
 :institution: MIT
 
 :author: Arno Klein
-:email: 
 :institution: Columbia University
 
--------------------------------------------------------------
-A continuous, transparent peer review and paper rating system
--------------------------------------------------------------
+:author: Brian Avants
+:institution: University of Pennsylvania
 
-.. class:: abstract
+:author: K. Jarrod Millman
+:institution: University of California, Berkeley
 
-   A short version of the long version that is way too long to be written as a
-   short version anyway.
+Abstract
+--------
+
 
 Introduction
 ------------
-
-- look at code review process and NumPy documentation editor
-- look at Wikipedia's review process
-- the idea of a living, growing document, rather than a series of articles each with the same tedious introduction
-- scientist typically have a few scientific projects -- more like a software project
-
-
-Learning from open source software projects to improve scientific review
-------------------------------------------------------------------------
-
-Satrajit S. Ghosh (MIT), Arno Klein (Columbia University), Brian Avants (University of Pennsylvania), K. Jarrod Millman (University of California, Berkeley)
 
 Over the last decade, scientists, institutions, publishers and funding agencies
 have made tremendous strides in the way scientific research is disseminated and
@@ -87,10 +33,7 @@ process. Given the massive influx of scientific publications, an objective,
 thorough and timely evaluation of research becomes essential. Drawing on ideas,
 experience, and technology recently developed to support code review in open
 source software projects, we propose an open evaluation system for scientific
-publishing. In the article, we will demonstrate how these ideas can improve the
-quality of published articles in the highly interdisciplinary field of
-neuroimaging. Here, we briefly describe a few important aspects of the proposed
-evaluation system.  
+publishing.
 
 First, we suggest a distributed peer review process involving morereviewers than
 in the current system. In any complex software project, there are specialists
@@ -153,3 +96,59 @@ described in other contributions to this special topic should be clearly
 communicated in the title, in the abstract, and through the headings and
 terminology used in the paper.
 
+
+Proposals
+---------
+
+#. Increased number of reviewers to improve scientific rigour
+
+A large collaborative project typically entails integration of a variety of
+disciplines. In such settings, project managers bring in consultants to provide
+expert information on specific domains. Similarly, current research articles
+aggregate a diverse variety of information. And currently, journal editors will
+bring in "experts" to review that information. However, given the diversity of
+research topics today, it is highly unlikely that a single reviewer has
+extensive knowledge of every single component of the article.
+
+We recommend an open review process that solicits reviewers from a subscribed
+pool of reviewers (for details see proposal X). The author or an editor can
+still choose to solicit reviewers directly for an article. However, the key
+element of this proposal is to allow reviewers to review specific components of
+the article they are knowledgeable about.
+
+#. Create a pool of reviewers, a quantitative assessment of reviewers and
+ integrate reviewer assessments into promotions and grants
+
+Currently reviewers are solicited by the editors of journals based on either
+names recommended by the authors who submitted the article, the editors'
+knowledge of the domain or from a internal journal reviewer database. Reviewing
+is currently considered your "duty" to science to keep the wheels
+turning. However, this same altruistic process results in a narrow selection of
+reviewers and an intrinsic variability in the review process that's highly
+dependent on the particular set of reviewers assigned to a paper.
+
+An alternative way to solicit reviewers, is to broadcast an article to a pool of
+reviewers and to let reviewers choose articles and components of the article
+they want to review. These are ideas that have already been implemented in
+scientific publishing. The Frontiers system [cite: XXX] as well as the Brain and
+Behavioral Sciences publication [cite: XXX] solicit reviews from the
+community. In the former case, from a select group of review editors and in the
+latter from the community. But this can be extended using current web
+technology. A mock-up of the intended review system is provided in Fig: xxx.
+
+Insert Fig: xxx
+
+As shown in the figure, reviewers can select which components of the article
+they are reviewing and for what content. This choice is coupled with a
+stack-overflow/math-overflow like interface, where the rest of the community can
+agree or disagree with the reviewers comments and choose to have a discussion on
+the topic. We can also draw on "kudos" received [cite: ohloh] as a function of
+commits made to a software project.
+
+There are two things that can be used towards assessment of reviewers. First,
+reviewer names are immediately associated with the publication. Second, reviewer
+grades eventually become associated with the reviewer based on community
+feedback on the reviews.
+
+
+#. Submitting data and code
