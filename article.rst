@@ -14,12 +14,6 @@ Learning from open-source software projects to improve scientific review
 :author: K. Jarrod Millman
 :institution: University of California, Berkeley
 
-Abstract
---------
-
-
-Introduction
-------------
 
 Over the last decade, scientists, institutions, publishers and funding agencies
 have made tremendous strides in the way scientific research is disseminated and
@@ -35,7 +29,7 @@ experience, and technology recently developed to support code review in open
 source software projects, we propose an open evaluation system for scientific
 publishing.
 
-First, we suggest a distributed peer review process involving morereviewers than
+First, we suggest a distributed peer review process involving more reviewers than
 in the current system. In any complex software project, there are specialists
 who focus on certain components of the software. However, code review is not
 limited to specialists. When multiple pairs of eyes look at code, the code
@@ -74,13 +68,13 @@ Editorial comments
 
 This abstract contains several good ideas and important observations. However,
 some of the ideas seem naively optimistic and unrealistic (e.g. let's just have
-lots of reviewers instead of 2-4, reviewers can reanalyse the data, all software
+lots of reviewers instead of 2-4, reviewers can reanalyze the data, all software
 can be submitted with each paper). While the ideas you outline seem desirable,
-it is unclear whether they can be realised.  
+it is unclear whether they can be realized.  
 
 I would like to invite you to contribute a full paper with the caveat that you
 will need to carefully clarify what aspects of your proposal are realistic and
-exactly how they can be realised, and what happens if they fail (e.g. scientists
+exactly how they can be realized, and what happens if they fail (e.g. scientists
 fail to comply). This includes the required web-based infrastructure as well as
 mechanisms of motivating authors (e.g. to submit data) and reviewers (e.g. to
 review more papers). The abstract leaves a number of questions open (see in-line
@@ -97,10 +91,21 @@ communicated in the title, in the abstract, and through the headings and
 terminology used in the paper.
 
 
+Abstract
+--------
+
+
+Introduction
+------------
+
+What is the goal of scientific review?
+
+
+
 Proposals
 ---------
 
-#. Increased number of reviewers to improve scientific rigour
+#. Increased number of reviewers to improve scientific rigor
 
 A large collaborative project typically entails integration of a variety of
 disciplines. In such settings, project managers bring in consultants to provide
@@ -152,3 +157,19 @@ feedback on the reviews.
 
 
 #. Submitting data and code
+
+A scientific article represents a summary of the work done, not the lab
+notebook. It is generally left up to the review process to determine if
+the methods were implemented and executed properly and if the
+appropriate parameters were used in the methods, based on this
+summary. Given the small fraction of any scientific community that is
+well versed in and understands the intricacies of the methods, the
+current review system simply does not address reproducibility or
+validity of methods used in research.
+
+xxx 
+
+
+#. A review process should allow and quantify positive, negative and non-results
+
+xxx
