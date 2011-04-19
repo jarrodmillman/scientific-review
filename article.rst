@@ -122,7 +122,7 @@ Proposals
   the article they are knowledgeable about.
 
 #. Create a pool of reviewers, a quantitative assessment of reviewers and
- integrate reviewer assessments into promotions and grants
+integrate reviewer assessments into promotions and grants
 
   Currently reviewers are solicited by the editors of journals based on either
   names recommended by the authors who submitted the article, the editors'
