@@ -252,20 +252,33 @@ execution, and documentation. This facilitates collaborative research and also
 ensures that optimal decisions are taken at every stage in the evolution of a
 project.
 
-Proposal 1: Increased number of reviewers to improve scientific rigor
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Open evaluation system
+----------------------
 
-::
+First, we suggest a distributed peer review process involving more reviewers than
+in the current system. In any complex software project, there are specialists
+who focus on certain components of the software. However, code review is not
+limited to specialists. When multiple pairs of eyes look at code, the code
+improves, bugs are caught, and all participants are encouraged to write better
+code. Opening up scientific reviews to the community will also ensure that the
+people most interested and knowledgeable on a topic review it, thereby speeding
+up the review process. Furthermore, the interdisciplinary papers today require
+far more than two to three reviewers to adequately spot problems.  
 
-  First, we suggest a distributed peer review process involving more reviewers than
-  in the current system. In any complex software project, there are specialists
-  who focus on certain components of the software. However, code review is not
-  limited to specialists. When multiple pairs of eyes look at code, the code
-  improves, bugs are caught, and all participants are encouraged to write better
-  code. Opening up scientific reviews to the community will also ensure that the
-  people most interested and knowledgeable on a topic review it, thereby speeding
-  up the review process. Furthermore, the interdisciplinary papers today require
-  far more than two to three reviewers to adequately spot problems.  
+Second, we suggest an open and recorded discourse between authors and
+reviewers. Although certain journals have an interactive discussion before a
+paper is accepted, the discussion is still behind closed doors and limited to
+the editor, the authors, and a small set of reviewers. An open and recorded
+review ensures that there is a timestamp on the work that has been done, an
+acknowledgement of who performed the research and the possibility of rectifying
+errors early in the process. Such discourse can itself be used to quantitatively
+assess the importance of a submission. Formal acceptance should merely be an
+annotation indicating agreement in the evolution of the discourse that should
+continue.  
+
+.. admonition:: Proposal 1
+   
+   Increased number of reviewers to improve scientific rigor
 
 A large collaborative project typically entails integration of a variety of
 disciplines. In such settings, project managers bring in consultants to provide
@@ -281,21 +294,10 @@ still choose to solicit reviewers directly for an article. However, the key
 element of this proposal is to allow reviewers to review specific components of
 the article they are knowledgeable about.
 
-Proposal 2: Create a pool of reviewers, a quantitative assessment of reviewers and integrate reviewer assessments into promotions and grants
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. admonition:: Proposal 2
 
-::
-
-  Second, we suggest an open and recorded discourse between authors and
-  reviewers. Although certain journals have an interactive discussion before a
-  paper is accepted, the discussion is still behind closed doors and limited to
-  the editor, the authors, and a small set of reviewers. An open and recorded
-  review ensures that there is a timestamp on the work that has been done, an
-  acknowledgement of who performed the research and the possibility of rectifying
-  errors early in the process. Such discourse can itself be used to quantitatively
-  assess the importance of a submission. Formal acceptance should merely be an
-  annotation indicating agreement in the evolution of the discourse that should
-  continue.  
+   Create a pool of reviewers, a quantitative assessment of reviewers and
+   integrate reviewer assessments into promotions and grants
 
 Currently reviewers are solicited by the editors of journals based on either
 names recommended by the authors who submitted the article, the editors'
@@ -328,8 +330,10 @@ reviewer names are immediately associated with the publication. Second, reviewer
 grades eventually become associated with the reviewer based on community
 feedback on the reviews.
 
-Proposal 3:  A review process should allow and quantify positive-, negative- and non-results
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. admonition:: Proposal 3
+   
+   A review process should allow and quantify positive-, negative-
+   and non-results
 
 Currently review processes are biased towards reporting novel findings
 distributed via a hierarchical ordering of journals. However, from a scientific
@@ -341,8 +345,8 @@ labeling the articles as such, one can quantify the success of a method or
 paradigm as well as provide an additional factor in assessing scientists
 contribution to the community.
 
-Proposal 4:  Reproducible research:  submitting data and code
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Reproducible research:  submitting data and code
+------------------------------------------------
 
 ::
 
