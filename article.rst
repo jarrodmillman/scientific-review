@@ -248,18 +248,15 @@ Lessons from open source development
   
         - higher impact discussions rather than just citations
 
-
-    - living publications
-
-      - incremental science
+      - living publications
+  
+        - incremental science
 
     - reproducible research
 
-In the long run, the review process need not be limited to publication, but can
-be engaged throughout the process of research, from inception through planning,
-execution, and documentation. This facilitates collaborative research and also
-ensures that optimal decisions are taken at every stage in the evolution of a
-project.
+      - long-term need
+      - published code/data
+      - verified
 
 Open evaluation system
 ----------------------
@@ -354,6 +351,17 @@ labeling the articles as such, one can quantify the success of a method or
 paradigm as well as provide an additional factor in assessing scientists
 contribution to the community.
 
+.. admonition:: Proposal 4
+
+   Living document annotated with status information (e.g., submission,
+   revised, published, retracted).
+
+In the long run, the review process need not be limited to publication, but can
+be engaged throughout the process of research, from inception through planning,
+execution, and documentation. This facilitates collaborative research and also
+ensures that optimal decisions are taken at every stage in the evolution of a
+project.
+
 Reproducible research:  submitting data and code
 ------------------------------------------------
 
@@ -366,6 +374,19 @@ Reproducible research:  submitting data and code
   that it can be. An open review process can improve the quality of articles and
   research through constructive feedback, and reduce the time period between
   initial submission and acceptance of an article.
+
+- difficulty in exactly repeating published results
+
+  - increasing size of data sets used in experimental science make including them
+    in traditions publications impossible
+  - the extensive computational processing used in experimental science make
+    completely specifiying the analysis difficult
+
+- increasing awareness of need to address these problems has led to a growing
+  number of scientists to advocate for *reproducible research*
+
+  - growing literature
+  - several special sessions at conferences
 
 .. epigraph::
 
@@ -395,3 +416,36 @@ Fig: XX a nipype graph showing what steps were used in an imaging experiment
 
 In the long run, virtual machines or servers may indeed allow standardization of
 analysis environments and replication of the results for every publication.
+
+.. admonition:: Proposal X
+
+   Annotate articles to indicate how much effort has been expended to make the
+   work reproducible (e.g., data publically available, code publically available,
+   results independently reproduced).
+
+- journals beginning to do this
+
+  - Biostatics (C, D, and R annotations)
+
+    - reproducibilty editor (Roger Peng)
+
+  - open research computation
+
+- potential difficulties
+
+  - large data sets
+  - computations that take weeks to run on supercomputers or specialized hardware
+
+- reproduction using same data and code doesn't mean the data and code are correct
+
+  - independent replication still needed
+
+.. admonition:: Proposal X
+
+   Articles embedded with provenance information.
+
+- Madagascar
+- VisTrails
+- Donoho's Universal Identifier for Computational Results
+
+  - http://www.stanford.edu/~vcs/AAAS2011/AAAS_slides_new.pdf
