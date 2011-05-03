@@ -41,11 +41,13 @@ Introduction
  - publish or perish
  - primary mechanism of scientific communication
  - timestamp for scientific credit
+ - gateway for scientific results
  - tied to academic review (tenure, grants, etc.)
 
     - need to maximize publication number
     - repetitive text in most papers
     - what is the information delta?
+    - minimum publishable unit
 
 - given its central role, our evaluation procedures are essential to
   the health and continued progress of science
@@ -53,11 +55,17 @@ Introduction
 - current evaluation process
 
   - peer review of pre-publication for each journal
-  - accepting journal indicates some general sense of the works quality
+  - journal serves as an indirect proxy of the published works quality
     and significance
-  - fraud and mistakes are culled via retraction
+    
+    - ISI Journal Impact Factor (JIF)
+    - Hirsch’s h-index w/ Google Scholar (for journals) 
+
+  - fraud and mistakes discovered after publication are culled via
+    retraction
   - post-publication commentary/discussion via letters to the editor
     or new publications
+  - references to articles
 
 - these existing evaluation procedures exhibit several deficiencies
 
@@ -97,14 +105,16 @@ Introduction
 
       - letters to the editor
 
+    - reference counts can indicate popularity rather than
+      validity
+
   - publications increasingly insufficient for reproducible research
 
     - computational results are advertised in journals, but
       the actual work to generate graphs, figures, results
       not adequately presented
     - how to review code?
-
-
+    - who would be responsible for storing/maintaining code/data?
 
 Development of the scientific journal and peer review process
 -------------------------------------------------------------
@@ -160,9 +170,8 @@ both science and the scientific community evolved
      - (1750s):  select group of members formed to review submissions and make
        recommendations to the editor
 
-   - early scientific journals had more space than articles so soon
-     the editors brought on assistant editors to help solicit articles
-     and reviews
+   - early scientific journals had more space than articles so journals began
+     adding assistant editors to help solicit articles and reviews
 
  - peer review limited by existing technologies
 
