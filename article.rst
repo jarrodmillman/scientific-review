@@ -27,11 +27,15 @@ arXiv.org, faculty websites), scientists face an expanding volume of scientific
 literature. The increasingly interdisciplinary nature of research, high volume
 of submissions and limited time and availability of expert reviewers have
 resulted in high variability in the quality and timeliness of the review
-process. Given the massive influx of scientific publications, an objective,
-thorough and timely evaluation of research becomes essential. Drawing on ideas,
-experience, and technology recently developed to support code review in open
-source software projects, we propose an open evaluation system for scientific
-publishing.
+process. Drawing on ideas, experience, and technology recently developed to
+support code review in open source software projects, we propose an open
+evaluation system for scientific publishing and a research reproducibility
+metric that continues to quantify the impact and validity of the contribution
+beyond the initial publication date. Given the massive influx of scientific
+publications and the variability of results, an objective, thorough and timely
+evaluation of research and continued re-evaluation in the context of new
+information becomes essential. The current web technologies makes implementing
+such a review system practical.
 
 Introduction
 ------------
@@ -458,3 +462,24 @@ analysis environments and replication of the results for every publication.
    results.
 
  - http://www.stanford.edu/~vcs/AAAS2011/AAAS_slides_new.pdf
+
+Discussion
+----------
+
+- In a local minimum: time to shake the optimization process
+
+  - conservatism and the inertial nature of science
+  - why change? and why now?
+
+- Practical and psychological limitations
+
+  - the balance between commercial benefits and scientific advance
+  - can publications replace the patent system?
+  - should incentives play a role?
+  - a revised role for journals
+
+- the ideal world
+
+  - open reproducible research 
+  - collaboration, reviews and reproducibility as the alternative metric for
+    funding/promotions
