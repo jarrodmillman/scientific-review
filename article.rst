@@ -419,6 +419,9 @@ analysis environments and replication of the results for every publication.
 
 .. admonition:: Proposal X
 
+   A retrospectively applicable reproducibility metric.   all papers
+   would come with this --- e.g.  orange level = not very reproducible!
+
    Annotate articles to indicate how much effort has been expended to make the
    work reproducible (e.g., data publically available, code publically available,
    results independently reproduced).
@@ -448,4 +451,10 @@ analysis environments and replication of the results for every publication.
 - VisTrails
 - Donoho's Universal Identifier for Computational Results
 
-  - http://www.stanford.edu/~vcs/AAAS2011/AAAS_slides_new.pdf
+.. admonition:: Proposal X
+
+   Reproducible research data license --- allows authors to release data
+   with the constraint that it only be used for reproducing a paper's
+   results.
+
+ - http://www.stanford.edu/~vcs/AAAS2011/AAAS_slides_new.pdf
