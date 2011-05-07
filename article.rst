@@ -430,6 +430,10 @@ analysis environments and replication of the results for every publication.
    work reproducible (e.g., data publically available, code publically available,
    results independently reproduced).
 
+.. I would rather not use color levels... They aren't very informative, but the
+   general idea is good.  At this point I think we should follow the lead of
+   Biostatics
+
 - journals beginning to do this
 
   - Biostatics (C, D, and R annotations)
@@ -455,13 +459,20 @@ analysis environments and replication of the results for every publication.
 - VisTrails
 - Donoho's Universal Identifier for Computational Results
 
+  - http://www.stanford.edu/~vcs/AAAS2011/AAAS_slides_new.pdf
+
 .. admonition:: Proposal X
 
    Reproducible research data license --- allows authors to release data
    with the constraint that it only be used for reproducing a paper's
    results.
 
- - http://www.stanford.edu/~vcs/AAAS2011/AAAS_slides_new.pdf
+..  I am not sure I agree with this proposal, but we should definitely say
+    something about licensing 
+
+Reproducible Research Standard (RRS) [stodden2009enabling]_
+
+- http://www.stanford.edu/~vcs/AAAS2011/AAAS_slides_new.pdf
 
 Discussion
 ----------
