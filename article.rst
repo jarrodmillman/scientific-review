@@ -40,85 +40,87 @@ such a review system practical.
 Introduction
 ------------
 
-- central role of publishing in science
+Peer-reviewed scientific publications continue to be the primary mechanism for
+dissemination of scientific information and are the primary constituents of the
+scientific credit score. In the current atmosphere of highly competitive and
+uncertain research funding, publications are instrumental in the distribution of
+resources and subsequently in forging research directions. With this
+increasingly tight coupling between publications and research funding and its
+consequence on academic tenure, scientists have adopted a publish or perish
+mentality where the focus is on maximizing the number of publications rather
+than on the validity and reproducibility of research. This has resulted in a
+decreased minimum publishable unit (i.e., the information delta) and increased
+redundancy in introductory background information across papers from a given
+area. Given this central role of publishing and an increased variability in the
+quality of papers, proper and rigorous evaluation procedures are essential to
+the health and continued progress of science.
 
- - publish or perish
- - primary mechanism of scientific communication
- - timestamp for scientific credit
- - gateway for scientific results
- - tied to academic review (tenure, grants, etc.)
+The most common form of the current evaluation process for an article involves a
+preliminary screening by a journal editor followed by an anonymous and private
+review, typically by a small group of peers (3-5 individuals) knowledgable in
+the research topic. The journal editor integrates these reviewer recommendations
+to either publish, reject or request revisions of the article under
+consideration. Problems with published articles, either fraud or mistakes, are
+addressed via retraction after publications, commentary via letters to the
+editor or through new articles. Given that there are no objective standards for
+the review process across journals and publishers, there is great variability in
+the percentage and quality of articles accepted across journals. This has led to
+a hierarchy in the status of journals, often quantified by the journal's impact
+factor [cite: xx]. As such, certain journals have become an indirect proxy for
+the quality and significance of published works instead of the review process. 
 
-    - need to maximize publication number
-    - repetitive text in most papers
-    - what is the information delta?
-    - minimum publishable unit
+While it is encouraging to see journals and other scientists continue to improve
+metrics for the importance of articles and the impact of authors (e.g., Hirsch’s
+h-index [cite: xxx]), the existing evaluation procedures exhibit several
+deficiencies. 
 
-- given its central role, our evaluation procedures are essential to
-  the health and continued progress of science
+First, reviews are often not completed in a timely manner. Review deadlines vary
+significantly from journal to journal and finding available and knowledgable
+reviewers is often difficult. With increasing multidisciplinary research,
+finding a reviewer knowledgable in all aspects of a article is
+challenging. Although there are journal consortia that share reviews across
+member journals, in case of rejection, review processes are often reinitiated by
+a new journal. This increases the delays and effort on the part of reviewers.
 
-- current evaluation process
+Second, reviews themselves are not considered a timestamp for the intellectual
+property in the work. Since the review process is typically anonymous and
+private, information is hidden until time of publication. While a given journal
+timestamps an article from initial submission to final acceptance, if the
+article has gone through a chain of journals, such information is typically
+lost.
 
-  - peer review of pre-publication for each journal
-  - journal serves as an indirect proxy of the published works quality
-    and significance
-    
-    - ISI Journal Impact Factor (JIF)
-    - Hirsch’s h-index w/ Google Scholar (for journals) 
+Third, there is no consistency in the review process to solicit information
+related to the contribution of each listed author. While certain journals have
+stringent standards for clearly indicating the role of each author on a paper,
+other journals do not collect such information. For example, there is implicit
+acknowledgement In the field of biological sciences that the first and last
+positions in the author list are typically used to signify primary contributor
+and the primary director of the research. However, the journal of the Acoustical
+Society of America and others expect author lists to be ordered in decreasing
+amounts of contribution. Such inconsistency or lack of standards negatively
+impacts consideration of author lists for promotion or in grant
+reviews. Furthermore without a standard contributors are often not included or
+adequately credited (e.g., technicians, research assistants) and certain authors
+are included without any contribution.
 
-  - fraud and mistakes discovered after publication are culled via
-    retraction
-  - post-publication commentary/discussion via letters to the editor
-    or new publications
-  - references to articles
+Fourth, the closed and anonymous review process does not acknowledge the role
+and importance of reviewers and information generated during the review
+(reviewer criticism and feedback). Reviewing has thus become an extremely
+important but seldom acknowledged process. This closed process also prevents an
+objective standardization of the scientific process. 
 
-- these existing evaluation procedures exhibit several deficiencies
+Fifth, the typical review process does not require submission of code and data
+associated with a publication making it increasingly limited as a mechanism to
+ensure reproducible research. The descriptions provided in methods sections are
+often inadequate for replication. In the context of increasing experimental and
+analysis complexity, the lack of availability of data and the code or scripts
+used to analyze data and generate results leads to an inability to verify
+accuracy of the results or spot problems with code or data. 
 
-  - difficulty in timely review
+These deficiencies undermine the role of peer-review in implicitly acknowledging
+the veracity and time of the performed research, in accounting the contribution
+of authors and in timely dissemination of scientific results.
 
-    - any given reviewer isn't expert in all aspects of a given paper
-    - hard to find enough available, knowledgable reviewers
-    - information hidden until publication for fear of being scooped
-
-  - contributions of authors
-
-    - unclear acknowledgement of contributions
-    - all information contained in author order
-    - major lab heads perform essential supervisory role, put on
-      papers as last author
-    - graduate students, RAs not always adequately credited
-    - often methodologistist, staff statisticians consulted,
-      but not always credited
-
-  - closed review process
-
-    - reviews are very important, but not acknowledged
-    - important information from reviews not publicly available
-    - in case of rejection, review process is typically reinitiated
-      wasting reviewers effort and delaying dissemenation of scientific
-      results
-
-  - static publication
-
-    - incorrect published results not easy to remove / fix
-
-      - retractions published in separate papers, often
-        not as visible as initial results
-      - retracted papers continue to be cited
-
-    - post-publication commentary limited
-
-      - letters to the editor
-
-    - reference counts can indicate popularity rather than
-      validity
-
-  - publications increasingly insufficient for reproducible research
-
-    - computational results are advertised in journals, but
-      the actual work to generate graphs, figures, results
-      not adequately presented
-    - how to review code?
-    - who would be responsible for storing/maintaining code/data?
 
 Development of the scientific journal and peer review process
 -------------------------------------------------------------
