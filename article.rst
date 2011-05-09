@@ -37,6 +37,8 @@ evaluation of research and continued re-evaluation in the context of new
 information becomes essential. The current web technologies makes implementing
 such a review system practical.
 
+.. contents::
+
 Introduction
 ------------
 
@@ -122,8 +124,8 @@ the veracity and time of the performed research, in accounting the contribution
 of authors and in timely dissemination of scientific results.
 
 
-Development of the scientific journal and peer review process
--------------------------------------------------------------
+Historical background
+---------------------
 
 .. epigraph::
 
@@ -146,66 +148,69 @@ Development of the scientific journal and peer review process
 the scientific journal and review process have evolved over time as
 both science and the scientific community evolved
 
- - origin of the scientific method
+- origin of the scientific method
 
-   - Francis Bacon's Novum Organum (1620) one of the early
-     proponents of experimental science
-   - the beginning of the use of controlled, repeatable experiments
-     to advance knowledge
-   - provided a method for questioning received wisdom
-     
- - origin of scientific communities
+  - Francis Bacon's Novum Organum (1620) one of the early
+    proponents of experimental science
+  - the beginning of the use of controlled, repeatable experiments
+    to advance knowledge
+  - provided a method for questioning received wisdom
+    
+- origin of scientific communities
 
-   - small groups started forming
-   - official societies such as the
-     Royal Society of London for Improving Natural Knowledge (1660s)
+  - small groups started forming
+  - official societies such as the
+    Royal Society of London for Improving Natural Knowledge (1660s)
+ 
+    - Royal Society's motto of *nullius in verba* (Take nobody's word for it)
+
+- the origin of the scientific journal
+
+  - as these scientific societies grew they needed a mechanism to disseminate
+    work and provide attribution
+  - journals such as the Society's Philosphical Transactions (1665)
+    edited by Henry Oldenburg appeared
+  - initially submission acceptance in these journals was left to the editor's
+    discretion
+  - as the volume and diversity of submissions increased new review procedure
+    were needed
+
+    - (1750s):  select group of members formed to review submissions and make
+      recommendations to the editor
+
+  - early scientific journals had more space than articles so journals began
+    adding assistant editors to help solicit articles and reviews
+
+- peer review limited by existing technologies
+
+  - in addition to a shortage of work to be published technology limited
+    the journals ability create copies of submissions for review
   
-     - Royal Society's motto of *nullius in verba* (Take nobody's word for it)
+   - advent of typewriters / carbon papers in 1890s simplified making 3-5 copies
+   - photocopiers (1959)
+   - modern personal computers / printers these limitations vanished 
 
- - the origin of the scientific journal
+- new technologies are again changing scientific publications
 
-   - as these scientific societies grew they needed a mechanism to disseminate
-     work and provide attribution
-   - journals such as the Society's Philosphical Transactions (1665)
-     edited by Henry Oldenburg appeared
-   - initially submission acceptance in these journals was left to the editor's
-     discretion
-   - as the volume and diversity of submissions increased new review procedure
-     were needed
+  - online publications:  preprints, continuous revision, open discussion
 
-     - (1750s):  select group of members formed to review submissions and make
-       recommendations to the editor
+- new technologies are also changing the everyday practice of science
 
-   - early scientific journals had more space than articles so journals began
-     adding assistant editors to help solicit articles and reviews
-
- - peer review limited by existing technologies
-
-   - in addition to a shortage of work to be published technology limited
-     the journals ability create copies of submissions for review
-   
-    - advent of typewriters / carbon papers in 1890s simplified making 3-5 copies
-    - photocopiers (1959)
-    - modern personal computers / printers these limitations vanished 
-
- - new technologies are again changing scientific publications
-
-   - online publications:  preprints, continuous revision, open discussion
-
- - new technologies are also changing the everyday practice of science
-
-   - increased data storage is rapidly expanding the amount of experimental
-     data we can acquire and analyze
-   - increased computational power is vastly increasing our ability to model
-     and 
+  - increased data storage is rapidly expanding the amount of experimental
+    data we can acquire and analyze
+  - increased computational power is vastly increasing our ability to model
+    and 
 
 http://www.nature.com/nature/peerreview/debate/
 
-Lessons from open source development
-------------------------------------
+Open evaluation system
+----------------------
 
 - propose an open evaluation system based on our experience
   with open source software development
+
+- we have organized our proposals according to how quickly we believe
+  they can be implemented/adopted
 
 - analogies with modern best-practices in code review
 
@@ -221,76 +226,32 @@ Lessons from open source development
 
     - Linus doesn't write code anymore
 
-- outline
+- open reviews
 
-  - changing the review process will take time and will most likely be
-    implemented in an iterative manner
+  - open for comments
+  - timely
+  - make paper best it can be  
+  - micro-reviews
 
-    - different fields may have different constraints
+    - review by best experts
+    - muli-tiered review (perhaps by graduate students/postdocs and then by experts)
 
-      - medical research
-      - animal research
-      - experimental vs. observational science
-      - wet-lab based vs. computation-based
+  - new measures for impact factors
 
-    - resistance to change
+    - higher impact discussions rather than just citations
 
-  - new opportunities / changing nature of scientific communication
-
-  - we have organized our proposals according to how quickly we believe
-    they can be implemented/adopted
-
-    - open reviews
-  
-      - open for comments
-      - timely
-      - make paper best it can be  
-      - micro-reviews
-    
-        - review by best experts
-        - muli-tiered review (perhaps by graduate students/postdocs and then by experts)
-
-      - new measures for impact factors
-  
-        - higher impact discussions rather than just citations
-
-      - living publications
-  
-        - incremental science
-
-    - reproducible research
-
-      - long-term need
-      - published code/data
-      - verified
-
-Open evaluation system
-----------------------
-
-First, we suggest a distributed peer review process involving more reviewers than
-in the current system. In any complex software project, there are specialists
-who focus on certain components of the software. However, code review is not
-limited to specialists. When multiple pairs of eyes look at code, the code
-improves, bugs are caught, and all participants are encouraged to write better
-code. Opening up scientific reviews to the community will also ensure that the
-people most interested and knowledgeable on a topic review it, thereby speeding
-up the review process. Furthermore, the interdisciplinary papers today require
-far more than two to three reviewers to adequately spot problems.  
-
-Second, we suggest an open and recorded discourse between authors and
-reviewers. Although certain journals have an interactive discussion before a
-paper is accepted, the discussion is still behind closed doors and limited to
-the editor, the authors, and a small set of reviewers. An open and recorded
-review ensures that there is a timestamp on the work that has been done, an
-acknowledgement of who performed the research and the possibility of rectifying
-errors early in the process. Such discourse can itself be used to quantitatively
-assess the importance of a submission. Formal acceptance should merely be an
-annotation indicating agreement in the evolution of the discourse that should
-continue.  
-
-.. admonition:: Proposal 1
+.. admonition:: Proposal X
    
    Increased number of reviewers to improve scientific rigor
+
+In any complex software project, there are specialists who focus on certain
+components of the software. However, code review is not limited to specialists.
+When multiple pairs of eyes look at code, the code improves, bugs are caught,
+and all participants are encouraged to write better code. Opening up scientific
+reviews to the community will also ensure that the people most interested and
+knowledgeable on a topic review it, thereby speeding up the review process.
+Furthermore, the interdisciplinary papers today require far more than two to
+three reviewers to adequately spot problems.  
 
 A large collaborative project typically entails integration of a variety of
 disciplines. In such settings, project managers bring in consultants to provide
@@ -300,13 +261,27 @@ bring in "experts" to review that information. However, given the diversity of
 research topics today, it is highly unlikely that a single reviewer has
 extensive knowledge of every single component of the article.
 
+.. admonition:: Proposal X
+
+   An open and recorded discourse between authors and reviewers.
+
+Although certain journals have an interactive discussion before a
+paper is accepted, the discussion is still behind closed doors and limited to
+the editor, the authors, and a small set of reviewers. An open and recorded
+review ensures that there is a timestamp on the work that has been done, an
+acknowledgement of who performed the research and the possibility of rectifying
+errors early in the process. Such discourse can itself be used to quantitatively
+assess the importance of a submission. Formal acceptance should merely be an
+annotation indicating agreement in the evolution of the discourse that should
+continue.  
+
 We recommend an open review process that solicits reviewers from a subscribed
 pool of reviewers (for details see proposal X). The author or an editor can
 still choose to solicit reviewers directly for an article. However, the key
 element of this proposal is to allow reviewers to review specific components of
 the article they are knowledgeable about.
 
-.. admonition:: Proposal 2
+.. admonition:: Proposal X
 
    Create a pool of reviewers, a quantitative assessment of reviewers and
    integrate reviewer assessments into promotions and grants
@@ -342,7 +317,7 @@ reviewer names are immediately associated with the publication. Second, reviewer
 grades eventually become associated with the reviewer based on community
 feedback on the reviews.
 
-.. admonition:: Proposal 3
+.. admonition:: Proposal X
    
    A review process should allow and quantify positive-, negative-
    and non-results
@@ -357,10 +332,14 @@ labeling the articles as such, one can quantify the success of a method or
 paradigm as well as provide an additional factor in assessing scientists
 contribution to the community.
 
-.. admonition:: Proposal 4
+.. admonition:: Proposal X
 
    Living document annotated with status information (e.g., submission,
    revised, published, retracted).
+
+- living publications
+
+  - incremental science
 
 In the long run, the review process need not be limited to publication, but can
 be engaged throughout the process of research, from inception through planning,
@@ -368,18 +347,20 @@ execution, and documentation. This facilitates collaborative research and also
 ensures that optimal decisions are taken at every stage in the evolution of a
 project.
 
-Reproducible research:  submitting data and code
-------------------------------------------------
+Reproducible research
+---------------------
 
-::
+- long-term need
+- published code/data
+- verified
 
-  Third, we suggest making data and software used for the research available as
-  part of the submission process. This not only ensures transparency and helps
-  reviewers but will also enhance reproducibility and encourage method reuse.  It
-  is in everyone’s scientific interest that every reviewed article is the best
-  that it can be. An open review process can improve the quality of articles and
-  research through constructive feedback, and reduce the time period between
-  initial submission and acceptance of an article.
+We suggest making data and software used for the research available as
+part of the submission process. This not only ensures transparency and helps
+reviewers but will also enhance reproducibility and encourage method reuse.  It
+is in everyone’s scientific interest that every reviewed article is the best
+that it can be. An open review process can improve the quality of articles and
+research through constructive feedback, and reduce the time period between
+initial submission and acceptance of an article.
 
 - difficulty in exactly repeating published results
 
@@ -426,15 +407,11 @@ analysis environments and replication of the results for every publication.
 .. admonition:: Proposal X
 
    A retrospectively applicable reproducibility metric.   all papers
-   would come with this --- e.g.  orange level = not very reproducible!
+   would come with this --- e.g., C for code, D for data, R for reproducible
 
    Annotate articles to indicate how much effort has been expended to make the
    work reproducible (e.g., data publically available, code publically available,
    results independently reproduced).
-
-.. I would rather not use color levels... They aren't very informative, but the
-   general idea is good.  At this point I think we should follow the lead of
-   Biostatics
 
 - journals beginning to do this
 
@@ -465,19 +442,38 @@ analysis environments and replication of the results for every publication.
 
 .. admonition:: Proposal X
 
+   Adopt the Reproducible Research Standard (RRS) [stodden2009enabling]_
+
+- http://www.stanford.edu/~vcs/AAAS2011/AAAS_slides_new.pdf
+
+.. admonition:: Proposal X
+
    Reproducible research data license --- allows authors to release data
    with the constraint that it only be used for reproducing a paper's
    results.
 
-..  I am not sure I agree with this proposal, but we should definitely say
-    something about licensing 
-
-Reproducible Research Standard (RRS) [stodden2009enabling]_
-
-- http://www.stanford.edu/~vcs/AAAS2011/AAAS_slides_new.pdf
+.. This could get a little tricky.  Would it be possible to report whether
+   the results were reproduced or not?  It would be very odd to not allow
+   researchers to try different parameters or preprocessing when analzing the
+   data. There are already licenses that require attribution or getting
+   permission prior to publishing new results from published data.
 
 Discussion
 ----------
+
+- changing the review process will take time and will most likely be
+  implemented in an iterative manner
+
+  - different fields may have different constraints
+
+    - medical research
+    - animal research
+    - experimental vs. observational science
+    - wet-lab based vs. computation-based
+
+  - resistance to change
+
+- new opportunities / changing nature of scientific communication
 
 - In a local minimum: time to shake the optimization process
 
