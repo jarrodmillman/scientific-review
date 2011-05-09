@@ -9,3 +9,7 @@ Commiting changes::
 Pushing changes back up::
 
     git push origin master
+
+Creating a simple PDF from the article::
+
+   rst2pdf article.rst
