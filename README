@@ -13,3 +13,32 @@ Pushing changes back up::
 Creating a simple PDF from the article::
 
    rst2pdf article.rst
+
+
+Notes from Jarrod's 5/9/2011 email:
+
+Once you've created your own fork, here are the main git commands you will need:
+
+### create your working repo
+$ git clone git@github.com:binarybottle/scientific-review.git
+$ cd scientific-review
+
+### add satra and my github repos
+$ git remote add satra git@github.com:satra/scientific-review.git
+$ git remote add jarrod git@github.com:jarrodmillman/scientific-review.git
+
+### get my newest revision and merge it with your master branch
+$ git fetch jarrod
+$ git merge jarrod/master
+
+### get satra's newest revision and merge it with your master branch
+$ git fetch satra
+$ git merge satra/master
+
+### commit your changes and push to your github repo
+$ git commit
+$ git push
+
+Arno (binarybottle), Brian (stnava), and Satra (satra) should have
+permission to push to my github repo as well:
+$ git push jarrod
