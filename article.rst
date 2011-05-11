@@ -78,7 +78,8 @@ the integrity of the review process, and indeed science, is imperiled.
 For the review process to continue to play a critical role in science,
 there are a number of problems that need to be addressed, some of which we list below.
 
-First, reviewers work in isolation, unable to discuss the content of the
+**Reviewers work in isolation and have limited expertise.**
+Reviewers work in isolation, unable to discuss the content of the
 article with the authors or other reviewers. When faced with an
 article that may be authored by half a dozen or more experts in their
 respective disciplines, how could a few reviewers be
@@ -89,13 +90,15 @@ the background, experimental design, methods, analysis of results,
 and interpretations handed over as a package to each reviewer, rather
 than delegated to many experts in each domain?
 
-Second, the closed and anonymous review process does not acknowledge the role
+**Review data are closed.**
+The closed and anonymous review process does not acknowledge the role
 and importance of reviewers and information generated during the review
 (reviewer criticism and feedback). Reviewing has thus become an extremely
 important but seldom acknowledged process. This closed process also prevents
 an objective standardization of the scientific process.
 
-Third, there is no consistency in the review process to solicit information
+**Author contributions are unclear.**
+There is no consistency in the review process to solicit information
 related to the contribution of each listed author. While certain journals have
 stringent standards for clearly indicating the role of each author on a paper,
 other journals do not. Even the order of author names does not abide by a single
@@ -110,21 +113,24 @@ Furthermore, without a standard, contributors
 are often not included or adequately credited and others
 are included without their having made any contribution.
 
-Fourth, reviews often take a considerable amount of time. Review deadlines vary
+**The review process is slow.**
+Reviews often take a considerable amount of time. Review deadlines vary
 significantly from journal to journal, and with increasingly multidisciplinary research,
 finding an available reviewer knowledgeable in all aspects of an article is
 challenging. Although there are journal consortia that share reviews across
 member journals in case of rejection, review processes are often reinitiated by
 a new journal, adding delays and demands on reviewers.
 
-Fifth, reviews themselves are not considered a timestamp for the intellectual
+**Precedence may be compromised.**
+Reviews themselves are not considered a timestamp for the intellectual
 property in the work. Since the review process is typically anonymous and
 private, information is hidden until the time of publication. While a given journal
 timestamps an article from initial submission to final acceptance, if the
 article has gone through a chain of journals, such information is typically
 lost.
 
-Sixth, the typical review process does not require submission of code and data
+**Studies are not reproducible.**
+The typical review process does not require submission of code and data
 associated with a publication, making it increasingly limited as a mechanism to
 ensure reproducible research. The descriptions provided in methods sections are
 often inadequate for replication. In the context of increasing complexity of
@@ -132,7 +138,8 @@ experimental design and analysis methods, the lack of accessibility to data and
 software used to analyze data and generate results leads to an inability to verify
 the accuracy of the results or to identify problems with the data or software.
 
-Seventh, after an article has been published, the review process simply ends,
+**A review has a limited lifespan.**
+After an article has been published, the review process simply ends,
 as if the work and interpretations of the results are sealed in a time capsule.
 Data, methods, analysis, and interpretations of the results are all
 a product of their time and context, and at a later time may not stand up to
@@ -232,7 +239,8 @@ We believe that opening up the review process to everyone, not just to a
 select few anonymous reviewers, has the potential to address every one of the
 problems with the review process that we raised in the Introduction.
 
-First, reviewers would no longer work in isolation or in anonymity,
+**Reviewers work in isolation and have limited expertise.**
+Reviewers would no longer work in isolation or in anonymity,
 benefitting from direct communication with the authors and the world
 of potential reviewers to clarify points, resolve ambiguities, receive
 open collegial advice, attract feedback from people well outside of the
@@ -240,23 +248,28 @@ authors' disciplines, and situate the discussion in the larger scientific commun
 Because each reviewer's feedback can be focused on his or her specialty or
 area of interest, there there is less burden placed on any one reviewer.
 
-Second, by opening up the review process, the role
+**Review data are closed.**
+By opening up the review process, the role
 and importance of reviewers and information generated during the review
 would be shared and acknowledged. Analysis of the review process then becomes
 possible and could lead to an objective standardization of the scientific process.
 
-Third, an open review is like an open discussion, where questions could be
+**Author contributions are unclear.**
+An open review is like an open discussion, where questions could be
 directed at individual authors to establish accountability for their
 contributions. This would make it far more likely that otherwise unacknowledged
 contributors, such as technicians and research assistants, would be heard.
 
-Fourth, an open discussion could happen in real time [like the Frontiers journals?],
+**The review process is slow.**
+An open discussion could happen in real time [like the Frontiers journals?],
 so reviews become an interactive and efficient process.
 
-Fifth, open review establishes a clear provenance of ideas and a timestamp
+**Precedence may be compromised.**
+Open review establishes a clear provenance of ideas and a timestamp
 for the intellectual property in the work.
 
-Sixth, in a wider, open review, descriptions of experimental designs and
+**Studies are not reproducible.**
+In a wider, open review, descriptions of experimental designs and
 methods would come under greater scrutiny by people from different fields
 using different nomenclature, leading to greater clarity and cross-fertilization
 of ideas. Software and data quality would also come under greater scrutiny by people
@@ -264,7 +277,8 @@ interested in their use for unexpected applications, pressuring authors
 to make them available for review as well, and potentially leading to collaborations,
 which would not be possible in a closed review process.
 
-Seventh, once open and online, there is no reason for a review process
+**A review has a limited lifespan.**
+Once open and online, there is no reason for a review process
 to end after an article has been published. The dialogue can continue and flourish,
 and references to different articles could be supplemented with references to
 the comments about these articles, firmly establishing these communications within
