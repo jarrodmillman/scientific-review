@@ -228,6 +228,54 @@ http://www.nature.com/nature/peerreview/debate/
 Open evaluation system
 ----------------------
 
+We believe that opening up the review process to everyone, not just to a
+select few anonymous reviewers, has the potential to address every one of the
+problems with the review process that we raised in the Introduction.
+
+First, reviewers would no longer work in isolation or in anonymity,
+benefitting from direct communication with the authors and the world
+of potential reviewers to clarify points, resolve ambiguities, receive
+open collegial advice, attract feedback from people well outside of the
+authors' disciplines, and situate the discussion in the larger scientific community.
+Because each reviewer's feedback can be focused on his or her specialty or
+area of interest, there there is less burden placed on any one reviewer.
+
+Second, by opening up the review process, the role
+and importance of reviewers and information generated during the review
+would be shared and acknowledged. Analysis of the review process then becomes
+possible and could lead to an objective standardization of the scientific process.
+
+Third, an open review is like an open discussion, where questions could be
+directed at individual authors to establish accountability for their
+contributions. This would make it far more likely that otherwise unacknowledged
+contributors, such as technicians and research assistants, would be heard.
+
+Fourth, an open discussion could happen in real time [like the Frontiers journals?],
+so reviews become an interactive and efficient process.
+
+Fifth, open review establishes a clear provenance of ideas and a timestamp
+for the intellectual property in the work.
+
+Sixth, in a wider, open review, descriptions of experimental designs and
+methods would come under greater scrutiny by people from different fields
+using different nomenclature, leading to greater clarity and cross-fertilization
+of ideas. Software and data quality would also come under greater scrutiny by people
+interested in their use for unexpected applications, pressuring authors
+to make them available for review as well, and potentially leading to collaborations,
+which would not be possible in a closed review process.
+
+Seventh, once open and online, there is no reason for a review process
+to end after an article has been published. The dialogue can continue and flourish,
+and references to different articles could be supplemented with references to
+the comments about these articles, firmly establishing these communications within
+the context of science, where science itself serves not just as a method or philosophy,
+but as a social endeavor. This could make science and scientific review a more welcoming
+community and career choice.
+
+
+
+
+
 - propose an open evaluation system based on our experience
   with open source software development
 
@@ -273,7 +321,7 @@ and all participants are encouraged to write better code. Opening up scientific
 reviews to the community will also ensure that the people most interested and
 knowledgeable on a topic review it, thereby speeding up the review process.
 Furthermore, the interdisciplinary papers today require far more than two to
-three reviewers to adequately spot problems.  
+three reviewers to adequately spot problems.
 
 A large collaborative project typically entails integration of a variety of
 disciplines. In such settings, project managers bring in consultants to provide
@@ -351,11 +399,11 @@ feedback on the reviews.
 Currently review processes are biased towards reporting novel findings
 distributed via a hierarchical ordering of journals. However, from a scientific
 perspective positive-, negative- and non-results are useful to the
-community. Instead of adopting a novelty-detector for every article published,
+community. Instead of adopting a novelty detector for every article published,
 the review process should not discourage replication of experiments as well as
 publication of experiments that did not produce results. By appropriately
 labeling the articles as such, one can quantify the success of a method or
-paradigm as well as provide an additional factor in assessing scientists
+paradigm as well as provide an additional factor in assessing scientists'
 contribution to the community.
 
 .. admonition:: Proposal X
