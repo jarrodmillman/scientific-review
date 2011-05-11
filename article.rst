@@ -19,23 +19,26 @@ Learning from open-source software projects to improve scientific review
 Abstract
 --------
 
-Over the last decade, scientists, institutions, publishers and funding agencies
-have made tremendous strides in the way scientific research is disseminated and
-accessed. With the advent of open-access journals as well as the growing
-availability of articles freely available online (e.g., PubMed Central,
-arXiv.org, faculty websites), scientists face an expanding volume of scientific
-literature. The increasingly interdisciplinary nature of research, high volume
-of submissions and limited time and availability of expert reviewers have
-resulted in high variability in the quality and timeliness of the review
-process. Drawing on ideas, experience, and technology recently developed to
-support code review in open source software projects, we propose an open
-evaluation system for scientific publishing and a research reproducibility
-metric that continues to quantify the impact and validity of the contribution
-beyond the initial publication date. Given the massive influx of scientific
-publications and the variability of results, an objective, thorough and timely
-evaluation of research and continued re-evaluation in the context of new
-information becomes essential. The current web technologies makes implementing
-such a review system practical.
+Over the last decade, scientists, institutions, publishers and
+funding agencies have made tremendous strides in the way scientific
+research is disseminated and accessed. With the advent of open-access
+journals as well as the growing availability of articles freely
+available in online repositories such as PubMed Central, arXiv.org,
+and faculty websites, scientists face a rapidly expanding volume of
+scientific literature. The increasingly interdisciplinary nature of
+research, high volume of submissions, and limited time and
+availability of expert reviewers have resulted in high variability in
+the quality and timeliness of the review process and resulting
+articles. Drawing on ideas, experience, and technology recently
+developed to support code review in open source software projects,
+we propose an open evaluation system for scientific publishing and a
+research reproducibility metric that continues to quantify the impact
+and validity of contributions beyond their initial publication dates.
+Given the massive influx of scientific publications of variable
+quality, an objective, thorough and timely evaluation and continued
+re-evaluation of research work in the context of new information is
+essential. The current web technologies make implementing such a
+review system practical.
 
 .. contents::
 
@@ -43,86 +46,105 @@ Introduction
 ------------
 
 Peer-reviewed scientific publications continue to be the primary mechanism for
-dissemination of scientific information and are the primary constituents of the
-scientific credit score. In the current atmosphere of highly competitive and
-uncertain research funding, publications are instrumental in the distribution of
-resources and subsequently in forging research directions. With this
-increasingly tight coupling between publications and research funding and its
-consequence on academic tenure, scientists have adopted a publish or perish
-mentality where the focus is on maximizing the number of publications rather
-than on the validity and reproducibility of research. This has resulted in a
-decreased minimum publishable unit (i.e., the information delta) and increased
-redundancy in introductory background information across papers from a given
-area. Given this central role of publishing and an increased variability in the
-quality of papers, proper and rigorous evaluation procedures are essential to
-the health and continued progress of science.
+dissemination of scientific information and for establishing
+precedence and credit for scientific research. In the current atmosphere of highly
+competitive and uncertain research funding, publications are instrumental
+in determining how resources are distributed, who gets promoted,
+and in which directions research advances. This has cultivated a publish-or-perish
+mentality where the focus is on maximizing the number of publications
+rather than on the validity and reproducibility of research findings, and
+a decrease in the amount of information apportioned to each
+article, the "minimum publishable unit." Moreover, given that there are no
+objective standards for the review process across journals and publishers, there
+is great variability in the percentage and quality of articles accepted across
+journals. This has led to a hierarchy in the status of journals, often quantified
+by the journal's impact factor [cite: Thompson's index, Hirsch’s h-index,
+the Eigenfactor index,...]. As such, certain journal titles are taken as arbiters
+of quality and significance of published works instead of the review process.
 
 The most common form of the current evaluation process for an article involves a
 preliminary screening by a journal editor followed by an anonymous and private
-review, typically by a small group of peers (3-5 individuals) knowledgable in
-the research topic. The journal editor integrates these reviewer recommendations
-to either publish, reject or request revisions of the article under
-consideration. Problems with published articles, either fraud or mistakes, are
-addressed via retraction after publications, commentary via letters to the
-editor or through new articles. Given that there are no objective standards for
-the review process across journals and publishers, there is great variability in
-the percentage and quality of articles accepted across journals. This has led to
-a hierarchy in the status of journals, often quantified by the journal's impact
-factor [cite: xx]. As such, certain journals have become an indirect proxy for
-the quality and significance of published works instead of the review process. 
+review, typically by a small group of (3-5) peers presumed to have
+expertise in the research topic. The journal editor takes into consideration
+the reviewers' recommendations to either publish, reject or request revisions
+of the article. After publication, problems such as fraud or mistakes are
+addressed via retraction after disclosure or exposure by countering articles or
+letters to the editor. Through the review process and
+the scientific community's history of policing itself, science is thought to
+have a self-correcting character. However, with the ever-increasing deluge of articles
+of variable quality, the increasingly multidisciplinary content of articles, and
+the use of journal impact factors as proxies for evaluations of individual articles,
+the integrity of the review process, and indeed science, is imperiled.
+For the review process to continue to play a critical role in science,
+there are a number of problems that need to be addressed, some of which we list below.
 
-While it is encouraging to see journals and other scientists continue to improve
-metrics for the importance of articles and the impact of authors (e.g., Hirsch’s
-h-index [cite: xxx]), the existing evaluation procedures exhibit several
-deficiencies. 
+First, reviewers work in isolation, unable to discuss the content of the
+article with the authors or other reviewers. When faced with an
+article that may be authored by half a dozen or more experts in their
+respective disciplines, how could a few reviewers be
+expected to have the range of expertise necessary to adequately
+understand and gauge the significance (or insignificance) of a given
+article? Why are the different components of an article, including
+the background, experimental design, methods, analysis of results,
+and interpretations handed over as a package to each reviewer, rather
+than delegated to many experts in each domain?
 
-First, reviews are often not completed in a timely manner. Review deadlines vary
-significantly from journal to journal and finding available and knowledgable
-reviewers is often difficult. With increasing multidisciplinary research,
-finding a reviewer knowledgable in all aspects of a article is
-challenging. Although there are journal consortia that share reviews across
-member journals, in case of rejection, review processes are often reinitiated by
-a new journal. This increases the delays and effort on the part of reviewers.
-
-Second, reviews themselves are not considered a timestamp for the intellectual
-property in the work. Since the review process is typically anonymous and
-private, information is hidden until time of publication. While a given journal
-timestamps an article from initial submission to final acceptance, if the
-article has gone through a chain of journals, such information is typically
-lost.
+Second, the closed and anonymous review process does not acknowledge the role
+and importance of reviewers and information generated during the review
+(reviewer criticism and feedback). Reviewing has thus become an extremely
+important but seldom acknowledged process. This closed process also prevents
+an objective standardization of the scientific process.
 
 Third, there is no consistency in the review process to solicit information
 related to the contribution of each listed author. While certain journals have
 stringent standards for clearly indicating the role of each author on a paper,
-other journals do not collect such information. For example, there is implicit
-acknowledgement In the field of biological sciences that the first and last
+other journals do not. Even the order of author names does not abide by a single
+convention. For example, in biology publications, the first and last
 positions in the author list are typically used to signify primary contributor
-and the primary director of the research. However, the journal of the Acoustical
-Society of America and others expect author lists to be ordered in decreasing
-amounts of contribution. Such inconsistency or lack of standards negatively
-impacts consideration of author lists for promotion or in grant
-reviews. Furthermore without a standard contributors are often not included or
-adequately credited (e.g., technicians, research assistants) and certain authors
-are included without any contribution.
+and primary director or sponsor of the research. However, journals such as
+the Acoustical Society of America expect author lists to be ordered by decreasing
+degree of contribution. Such inconsistencies negatively
+impact consideration of author lists for promotion or in grant reviews.
+Furthermore, without a standard, contributors
+(such as technicians and research assistants)
+are often not included or adequately credited and others
+are included without their having made any contribution.
 
-Fourth, the closed and anonymous review process does not acknowledge the role
-and importance of reviewers and information generated during the review
-(reviewer criticism and feedback). Reviewing has thus become an extremely
-important but seldom acknowledged process. This closed process also prevents an
-objective standardization of the scientific process. 
+Fourth, reviews often take a considerable amount of time. Review deadlines vary
+significantly from journal to journal, and with increasingly multidisciplinary research,
+finding an available reviewer knowledgeable in all aspects of an article is
+challenging. Although there are journal consortia that share reviews across
+member journals in case of rejection, review processes are often reinitiated by
+a new journal, adding delays and demands on reviewers.
 
-Fifth, the typical review process does not require submission of code and data
-associated with a publication making it increasingly limited as a mechanism to
+Fifth, reviews themselves are not considered a timestamp for the intellectual
+property in the work. Since the review process is typically anonymous and
+private, information is hidden until the time of publication. While a given journal
+timestamps an article from initial submission to final acceptance, if the
+article has gone through a chain of journals, such information is typically
+lost.
+
+Sixth, the typical review process does not require submission of code and data
+associated with a publication, making it increasingly limited as a mechanism to
 ensure reproducible research. The descriptions provided in methods sections are
-often inadequate for replication. In the context of increasing experimental and
-analysis complexity, the lack of availability of data and the code or scripts
-used to analyze data and generate results leads to an inability to verify
-accuracy of the results or spot problems with code or data. 
+often inadequate for replication. In the context of increasing complexity of
+experimental design and analysis methods, the lack of accessibility to data and
+software used to analyze data and generate results leads to an inability to verify
+the accuracy of the results or to identify problems with the data or software.
 
-These deficiencies undermine the role of peer-review in implicitly acknowledging
-the veracity and time of the performed research, in accounting the contribution
-of authors and in timely dissemination of scientific results.
+Seventh, after an article has been published, the review process simply ends,
+as if the work and interpretations of the results are sealed in a time capsule.
+Data, methods, analysis, and interpretations of the results are all
+a product of their time and context, and at a later time may not stand up to
+scrutiny or may yield new insights. Simply enabling a continuing dialogue about each
+article would make it a living document and integrate it in a rich scientific dialogue.
 
+In this article, we attempt to address these deficiencies by drawing on
+the ideas, experience, and technology recently developed to support
+code review in open source software projects, by proposing an open
+evaluation system for scientific publishing, and by proposing a
+research reproducibility metric that continues to quantify the impact
+and validity of contributions beyond their initial publication dates.
 
 Historical background
 ---------------------
@@ -146,7 +168,7 @@ Historical background
 
 
 the scientific journal and review process have evolved over time as
-both science and the scientific community evolved
+both science and the scientific community have evolved
 
 - origin of the scientific method
 
@@ -172,7 +194,7 @@ both science and the scientific community evolved
     edited by Henry Oldenburg appeared
   - initially submission acceptance in these journals was left to the editor's
     discretion
-  - as the volume and diversity of submissions increased new review procedure
+  - as the volume and diversity of submissions increased, new review procedures
     were needed
 
     - (1750s):  select group of members formed to review submissions and make
@@ -286,11 +308,15 @@ the article they are knowledgeable about.
    Create a pool of reviewers, a quantitative assessment of reviewers and
    integrate reviewer assessments into promotions and grants
 
+Reviewing is currently considered one's unpaid "duty" to
+maintain the standards and credibility of scientific research.
+The reviewer stands to gain by early exposure to relevant areas of research,
+and a publisher stands to gain financially by either publication or
+subscription fees.
 Currently reviewers are solicited by the editors of journals based on either
 names recommended by the authors who submitted the article, the editors'
-knowledge of the domain or from a internal journal reviewer database. Reviewing
-is currently considered your "duty" to science to keep the wheels
-turning. However, this same altruistic process results in a narrow selection of
+knowledge of the domain or from an internal journal reviewer database.
+This selection process results in a very narrow and perhaps biased selection of
 reviewers and an intrinsic variability in the review process that's highly
 dependent on the particular set of reviewers assigned to a paper.
 
