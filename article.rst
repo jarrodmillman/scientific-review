@@ -90,6 +90,16 @@ the background, experimental design, methods, analysis of results,
 and interpretations handed over as a package to each reviewer, rather
 than delegated to many experts in each domain?
 
+**Reviewers have little incentive.**
+Reviewing is currently considered one's unpaid "duty" to
+maintain the standards and credibility of scientific research.
+The reviewer stands to gain by early exposure to relevant areas of research,
+while a publisher stands to gain financially through either publication or
+subscription fees. In order to further motivate potential reviewers to
+participate in the review process, there should be some form of
+acknowledgment for their services that would factor into their
+evaluations for promotion and funding opportunities.
+
 **Review data are closed.**
 The closed and anonymous review process does not acknowledge the role
 and importance of reviewers and information generated during the review
@@ -232,101 +242,26 @@ both science and the scientific community have evolved
 
 http://www.nature.com/nature/peerreview/debate/
 
+
 Open evaluation system
 ----------------------
 
 We believe that opening up the review process to everyone, not just to a
 select few anonymous reviewers, has the potential to address every one of the
 problems with the review process that we raised in the Introduction.
+We will address each of the problems in order and make reference to
+lessons from distributed code review in open source software development.
+A mock-up of the intended review system is provided in Fig: xxx.
 
-**Reviewers work in isolation and have limited expertise.**
+**Open reviews to everyone.**
 Reviewers would no longer work in isolation or in anonymity,
 benefitting from direct communication with the authors and the world
 of potential reviewers to clarify points, resolve ambiguities, receive
 open collegial advice, attract feedback from people well outside of the
-authors' disciplines, and situate the discussion in the larger scientific community.
-Because each reviewer's feedback can be focused on his or her specialty or
-area of interest, there there is less burden placed on any one reviewer.
-
-**Review data are closed.**
-By opening up the review process, the role
-and importance of reviewers and information generated during the review
-would be shared and acknowledged. Analysis of the review process then becomes
-possible and could lead to an objective standardization of the scientific process.
-
-**Author contributions are unclear.**
-An open review is like an open discussion, where questions could be
-directed at individual authors to establish accountability for their
-contributions. This would make it far more likely that otherwise unacknowledged
-contributors, such as technicians and research assistants, would be heard.
-
-**The review process is slow.**
-An open discussion could happen in real time [like the Frontiers journals?],
-so reviews become an interactive and efficient process.
-
-**Precedence may be compromised.**
-Open review establishes a clear provenance of ideas and a timestamp
-for the intellectual property in the work.
-
-**Studies are not reproducible.**
-In a wider, open review, descriptions of experimental designs and
-methods would come under greater scrutiny by people from different fields
-using different nomenclature, leading to greater clarity and cross-fertilization
-of ideas. Software and data quality would also come under greater scrutiny by people
-interested in their use for unexpected applications, pressuring authors
-to make them available for review as well, and potentially leading to collaborations,
-which would not be possible in a closed review process.
-
-**A review has a limited lifespan.**
-Once open and online, there is no reason for a review process
-to end after an article has been published. The dialogue can continue and flourish,
-and references to different articles could be supplemented with references to
-the comments about these articles, firmly establishing these communications within
-the context of science, where science itself serves not just as a method or philosophy,
-but as a social endeavor. This could make science and scientific review a more welcoming
-community and career choice.
-
-
-
-
-
-- propose an open evaluation system based on our experience
-  with open source software development
-
-- we have organized our proposals according to how quickly we believe
-  they can be implemented/adopted
-
-- analogies with modern best-practices in code review
-
-  - web-based discussions
-
-    - discussion graph
-
-  - inline comments
-  - continuous integration
-  - multiple reviewers
-  - timely reviews
-  - most important community members are often not authors
-
-    - Linus doesn't write code anymore
-
-- open reviews
-
-  - open for comments
-  - timely
-  - make paper best it can be  
-  - micro-reviews
-
-    - review by best experts
-    - muli-tiered review (perhaps by graduate students/postdocs and then by experts)
-
-  - new measures for impact factors
-
-    - higher impact discussions rather than just citations
-
-.. admonition:: Proposal X
-   
-   Increased number of reviewers to improve scientific rigor
+authors' disciplines, and situate the discussion in the larger scientific
+community. Because each reviewer's feedback can be focused on his or her
+specialty or area of interest, there there is less burden placed on any
+one reviewer.
 
 In any complex software project, there are specialists who focus on certain
 components of the software. However, code review is not limited to specialists.
@@ -337,59 +272,99 @@ knowledgeable on a topic review it, thereby speeding up the review process.
 Furthermore, the interdisciplinary papers today require far more than two to
 three reviewers to adequately spot problems.
 
-A large collaborative project typically entails integration of a variety of
-disciplines. In such settings, project managers bring in consultants to provide
-expert information on specific domains. Similarly, current research articles
-aggregate a diverse variety of information. And currently, journal editors will
-bring in "experts" to review that information. However, given the diversity of
-research topics today, it is highly unlikely that a single reviewer has
-extensive knowledge of every single component of the article.
+In case there is an overwhelming amount of participation in a review,
+or fear of disclosure prior to publication, there are at least two types
+of compromise available. One would be to assign certain reviewers as
+moderators for different components of the article, to lessen the burden
+on the editor. Another would be to increase the number of reviewers
+(solicited from a subscribed pool) without opening up the review process
+to everyone. This would still improve scientific rigor
+while lessening the burden on each individual reviewer, as long as they
+review specific components of the article they are knowledgeable about.
 
-.. admonition:: Proposal X
-
-   An open and recorded discourse between authors and reviewers.
-
-Although certain journals have an interactive discussion before a
-paper is accepted, the discussion is still behind closed doors and limited to
-the editor, the authors, and a small set of reviewers. An open and recorded
-review ensures that there is a timestamp on the work that has been done, an
-acknowledgement of who performed the research and the possibility of rectifying
-errors early in the process. Such discourse can itself be used to quantitatively
-assess the importance of a submission. Formal acceptance should merely be an
-annotation indicating agreement in the evolution of the discourse that should
-continue.  
-
-We recommend an open review process that solicits reviewers from a subscribed
-pool of reviewers (for details see proposal X). The author or an editor can
-still choose to solicit reviewers directly for an article. However, the key
-element of this proposal is to allow reviewers to review specific components of
-the article they are knowledgeable about.
-
-.. admonition:: Proposal X
-
-   Create a pool of reviewers, a quantitative assessment of reviewers and
-   integrate reviewer assessments into promotions and grants
-
-Reviewing is currently considered one's unpaid "duty" to
-maintain the standards and credibility of scientific research.
-The reviewer stands to gain by early exposure to relevant areas of research,
-and a publisher stands to gain financially by either publication or
-subscription fees.
-Currently reviewers are solicited by the editors of journals based on either
+Currently, reviewers are solicited by the editors of journals based on either
 names recommended by the authors who submitted the article, the editors'
 knowledge of the domain or from an internal journal reviewer database.
-This selection process results in a very narrow and perhaps biased selection of
-reviewers and an intrinsic variability in the review process that's highly
-dependent on the particular set of reviewers assigned to a paper.
+This selection process results in a very narrow and biased selection of
+reviewers. An alternative way to solicit reviewers is to broadcast an article
+to a pool of reviewers and to let reviewers choose articles and components of the
+article they want to review. These are ideas that have already been implemented in
+scientific publishing. The Frontiers system [cite: XXX] solicits reviews from a
+select group of review editors and the Brain and Behavioral Sciences publication
+[cite: XXX] solicits reviews from the community.
 
-An alternative way to solicit reviewers, is to broadcast an article to a pool of
-reviewers and to let reviewers choose articles and components of the article
-they want to review. These are ideas that have already been implemented in
-scientific publishing. The Frontiers system [cite: XXX] as well as the Brain and
-Behavioral Sciences publication [cite: XXX] solicit reviews from the
-community. In the former case, from a select group of review editors and in the
-latter from the community. But this can be extended using current web
-technology. A mock-up of the intended review system is provided in Fig: xxx.
+**Acknowledge reviewers**
+When reviewers are given the opportunity to provide feedback regarding just
+the areas they are interested in, the review process becomes much more enjoyable.
+But there are additional factors afforded by opening the review process
+that will motivate reviewer participation. First, the review process becomes the
+dialogue of science, and anyone who engages in that dialogue gets heard.
+Second, it transforms the review process from one of secrecy to one of
+engaging social discourse.
+Third, an open review process makes it possible to quantitatively assess
+reviewer contributions, which could lead to assessments for promotions and grants.
+There are two things that can be used towards assessment of reviewers. First,
+reviewer names are immediately associated with the publication. Second, reviewer
+grades eventually become associated with the reviewer based on community
+feedback on the reviews.
+
+**Open data generated by reviews.**
+Although certain journals hold a discussion before a
+paper is accepted, it is still behind closed doors and limited to
+the editor, the authors, and a small set of reviewers. An open and recorded
+review ensures that there is a timestamp on the work that has been done, an
+acknowledgement of who performed the research, and a higher probability
+of rectifying errors early in the process.
+By opening up the review process, the role and importance of reviewers
+and information generated during the review would be shared and acknowledged.
+The exchanges themselves can be used to quantitatively assess the importance
+of a submission, and analysis of the review process then becomes possible
+and could lead to an objective standardization of the scientific process.
+
+**Clarify author contributions.**
+An open review is like an open discussion, where questions could be
+directed at individual authors to establish accountability for their
+contributions. This would make it far more likely that otherwise unacknowledged
+contributors, such as technicians and research assistants, would be heard.
+
+**Expedite the review process.**
+An open discussion could happen in real time [like the Frontiers journals?],
+so reviews become an interactive and efficient process.
+
+**Establish precedence.**
+Open review establishes a clear provenance of ideas and a timestamp
+for the intellectual property in the work.
+
+**Facilitate reproducibility.**
+In a widescale, open review, descriptions of experimental designs and
+methods would come under greater scrutiny by people from different fields
+using different nomenclature, leading to greater clarity and cross-fertilization
+of ideas. Software and data quality would also come under greater scrutiny by people
+interested in their use for unexpected applications, pressuring authors
+to make them available for review as well, and potentially leading to collaborations,
+which would not be possible in a closed review process.
+
+Currently, reviews are biased toward reporting novel findings.
+However, from a scientific perspective, positive-, negative- and non-results
+are extremely useful to the community. 
+[http://www.plosmedicine.org/article/info:doi/10.1371/journal.pmed.0020124]
+[http://www.plosmedicine.org/article/info%3Adoi%2F10.1371%2Fjournal.pmed.0040028]
+Instead of judging every article based on novelty,
+the review process should encourage replication of experiments as well as
+publication of experiments that did not produce results. By appropriately
+labeling the articles as such, one can quantify the success of a method or
+paradigm as well as provide an additional factor in assessing scientists'
+contribution to the community.
+
+**Extend the review process indefinitely.**
+Once open and online, there is no reason for a review process
+to end after an article has been published. The article can continue as
+a living document, where the dialogue can continue and flourish,
+and references to different articles could be supplemented with references to
+the comments about these articles, firmly establishing these communications within
+the dialogue and provenance of science, where science serves not just as a
+method or philosophy, but as a social endeavor. This could make science and
+scientific review a more welcoming community, and more desirable career choice.
 
 Insert Fig: xxx
 
@@ -400,40 +375,34 @@ agree or disagree with the reviewers comments and choose to have a discussion on
 the topic. We can also draw on "kudos" received [cite: ohloh] as a function of
 commits made to a software project.
 
-There are two things that can be used towards assessment of reviewers. First,
-reviewer names are immediately associated with the publication. Second, reviewer
-grades eventually become associated with the reviewer based on community
-feedback on the reviews.
-
-.. admonition:: Proposal X
-   
-   A review process should allow and quantify positive-, negative-
-   and non-results
-
-Currently review processes are biased towards reporting novel findings
-distributed via a hierarchical ordering of journals. However, from a scientific
-perspective positive-, negative- and non-results are useful to the
-community. Instead of adopting a novelty detector for every article published,
-the review process should not discourage replication of experiments as well as
-publication of experiments that did not produce results. By appropriately
-labeling the articles as such, one can quantify the success of a method or
-paradigm as well as provide an additional factor in assessing scientists'
-contribution to the community.
-
-.. admonition:: Proposal X
-
-   Living document annotated with status information (e.g., submission,
-   revised, published, retracted).
-
-- living publications
-
-  - incremental science
-
 In the long run, the review process need not be limited to publication, but can
 be engaged throughout the process of research, from inception through planning,
 execution, and documentation. This facilitates collaborative research and also
 ensures that optimal decisions are taken at every stage in the evolution of a
 project.
+
+
+
+- analogies with modern best-practices in code review
+  - web-based discussions
+    - discussion graph
+  - inline comments
+  - continuous integration
+  - multiple reviewers
+  - timely reviews
+  - most important community members are often not authors
+    - Linus doesn't write code anymore
+
+- open reviews
+  - open for comments
+  - timely
+  - make paper best it can be  
+  - micro-reviews
+    - review by best experts
+    - muli-tiered review (perhaps by graduate students/postdocs and then by experts)
+  - new measures for impact factors
+    - higher impact discussions rather than just citations
+
 
 Reproducible research
 ---------------------
