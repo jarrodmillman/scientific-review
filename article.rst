@@ -27,7 +27,7 @@ available in online repositories such as PubMed Central, arXiv.org,
 and faculty websites, scientists face a rapidly expanding volume of
 scientific literature. The increasingly interdisciplinary nature of
 research, high volume of submissions, and limited time and
-availability of expert reviewers have resulted in high variability in
+availability of expert reviewers lead to high variability in
 the quality and timeliness of the review process and resulting
 articles. Drawing on ideas, experience, and technology recently
 developed to support code review in open source software projects,
@@ -62,6 +62,10 @@ by the journal's impact factor [cite: Thompson's index, Hirsch’s h-index,
 the Eigenfactor index,...]. As such, certain journal titles are taken as arbiters
 of quality and significance of published works instead of the review process.
 
+The scientific endeavor is, overall, self-correcting.  However, the
+correction process [ is long and painful e.g. cancer caused by a virus].  
+
+
 The most common form of the current evaluation process for an article involves a
 preliminary screening by a journal editor followed by an anonymous and private
 review, typically by a small group of (3-5) peers presumed to have
@@ -69,14 +73,16 @@ expertise in the research topic. The journal editor takes into consideration
 the reviewers' recommendations to either publish, reject or request revisions
 of the article. After publication, problems such as fraud or mistakes are
 addressed via retraction after disclosure or exposure by countering articles or
-letters to the editor. Through the review process and
-the scientific community's history of policing itself, science is thought to
-have a self-correcting character. However, with the ever-increasing deluge of articles
+letters to the editor.  However, with the ever-increasing deluge of articles
 of variable quality, the increasingly multidisciplinary content of articles, and
 the use of journal impact factors as proxies for evaluations of individual articles,
 the integrity of the review process, and indeed science, is imperiled.
 For the review process to continue to play a critical role in science,
 there are a number of problems that need to be addressed, some of which we list below.
+
+ One well-known example is the case of XXX
+Chung, whose rigorous and correct experimental work was later
+retracted due to a software bug that undermined the paper's conclusions [REF Nature].
 
 **Reviewers work in isolation and have limited expertise.**
 Reviewers work in isolation, unable to discuss the content of the
@@ -523,6 +529,21 @@ analysis environments and replication of the results for every publication.
    researchers to try different parameters or preprocessing when analzing the
    data. There are already licenses that require attribution or getting
    permission prior to publishing new results from published data.
+
+.. admonition:: Proposal BA
+
+   The software development community (Google, ITK, etc) rely on
+   collaboration between often physically distant software authors and
+   code reviewers.  We propose to rely upon an existing code review
+   system, Gerrit, to enable ordered and systematic discussions of not
+   only the editorial content of scientific work but also the scripts,
+   compilable code and data.  Gerrit, as it currently stands today
+   without modification, provides reviewers the ability to interact,
+   modify, annotate and discuss the contents of an author's
+   submission.  Indeed, the purpose of Gerrit mirrors {\em almost
+   exactly} the purpose of scientific review: to increase the clarity,
+   reproducibility and correctness of works that enter the canon.
+   This does not depend upon whether the canon is software, science or 
 
 Discussion
 ----------
