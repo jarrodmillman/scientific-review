@@ -543,7 +543,15 @@ analysis environments and replication of the results for every publication.
    submission.  Indeed, the purpose of Gerrit mirrors {\em almost
    exactly} the purpose of scientific review: to increase the clarity,
    reproducibility and correctness of works that enter the canon.
-   This does not depend upon whether the canon is software, science or 
+   etcetera ....
+
+   It is possible, for instance, that such a review system would have
+   uncovered the bug that led to years of scientific misdirection caused by
+   reliance on unvalidated software.
+   DOI:10.1126/science.314.5807.1856  Either (1) the software would
+   have been studied more closely or (2) inconsistencies with existing
+   knowledge that the authors ignored (and which ultimately helped
+   uncover the original bug) would have been taken more seriously.  
 
 Discussion
 ----------
