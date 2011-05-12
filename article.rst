@@ -384,23 +384,32 @@ project.
 
 
 - analogies with modern best-practices in code review
+
   - web-based discussions
-    - discussion graph
-  - inline comments
+  - discussion graph
+
+    - inline comments
+
   - continuous integration
   - multiple reviewers
   - timely reviews
   - most important community members are often not authors
+
     - Linus doesn't write code anymore
 
 - open reviews
+
   - open for comments
   - timely
   - make paper best it can be  
   - micro-reviews
+
     - review by best experts
-    - muli-tiered review (perhaps by graduate students/postdocs and then by experts)
+    - muli-tiered review (perhaps by graduate students/postdocs and then
+      by experts)
+
   - new measures for impact factors
+
     - higher impact discussions rather than just citations
 
 
@@ -549,5 +558,3 @@ Discussion
   - open reproducible research 
   - collaboration, reviews and reproducibility as the alternative metric for
     funding/promotions
-
-.. include:: biblio.txt
