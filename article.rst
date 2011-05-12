@@ -13,7 +13,7 @@ Learning from open-source software projects to improve scientific review
 :author: Brian Avants
 :institution: University of Pennsylvania
 
-:author: K. Jarrod Millman
+:author: ``K. Jarrod Millman``
 :institution: University of California, Berkeley
 
 Abstract
@@ -549,3 +549,5 @@ Discussion
   - open reproducible research 
   - collaboration, reviews and reproducibility as the alternative metric for
     funding/promotions
+
+.. include:: biblio.txt
