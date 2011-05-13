@@ -154,6 +154,10 @@ experimental design and analysis methods, the lack of accessibility to data and
 software used to analyze data and generate results leads to an inability to verify
 the accuracy of the results or to identify problems with the data or software.
 
+- Why most published studies false [cite: ioannidis2005most]
+- [cite: line2007reproducible]
+- [cite: coombes2007microarrays]
+
 **A review has a limited lifespan.**
 After an article has been published, the review process simply ends,
 as if the work and interpretations of the results are sealed in a time capsule.
@@ -189,6 +193,9 @@ Historical background
 
     |emdash| Francis Bacon, Novum Organum (1620)
 
+- post-publication proxies for quality
+
+  - citedness??
 
 the scientific journal and review process have evolved over time as
 both science and the scientific community have evolved
@@ -231,9 +238,9 @@ both science and the scientific community have evolved
   - in addition to a shortage of work to be published technology limited
     the journals ability create copies of submissions for review
   
-   - advent of typewriters / carbon papers in 1890s simplified making 3-5 copies
-   - photocopiers (1959)
-   - modern personal computers / printers these limitations vanished 
+    - advent of typewriters / carbon papers in 1890s simplified making 3-5 copies
+    - photocopiers (1959)
+    - modern personal computers / printers these limitations vanished 
 
 - new technologies are again changing scientific publications
 
@@ -422,9 +429,34 @@ project.
 Reproducible research
 ---------------------
 
+The increasing storage capacity and processing power of modern computing
+resources is dramatically changing the nature of scientific scholarship. As a
+result, traditional peer-reviewed research articles are no longer sufficient
+for communicating most scientific work. In the late 1980s, Jon Claerbout, a
+geophysicist at Stanford, coined the phrase "reproducible research" to refer to
+the complete software environment necessary to generate all the results and
+figures included in published articles [cite: schwab2000making].
+
+It is easy to forget that the introduction, methods, results, and discussion
+(IMRAD) structure used by almost every scientific article today dates back to
+1940s and wasn't pervasive until the 1970s [cite: sollaci2004introduction].
+
+
+- technology driving change
+- continuing advances in computing
+- computation is pervasive
 - long-term need
 - published code/data
 - verified
+
+
+**Minimum information standards for methodological reporting.**
+
+- fmri standards [cite: poldrack2008guidelines]
+- computational neuronal modeling [cite: nordlie2009towards]
+- microarray standards [cite: brazma2001minimum]
+- randomized controlled trials [cite: begg1996improving]
+
 
 We suggest making data and software used for the research available as
 part of the submission process. This not only ensures transparency and helps
@@ -476,14 +508,12 @@ Fig: XX a nipype graph showing what steps were used in an imaging experiment
 In the long run, virtual machines or servers may indeed allow standardization of
 analysis environments and replication of the results for every publication.
 
-.. admonition:: Proposal X
+**Apoint a reproducibility editor and certification process.**
+Annotate articles to indicate how much effort has been expended to make the
+work reproducible (e.g., data publically available, code publically available,
+results independently reproduced).
 
-   A retrospectively applicable reproducibility metric.   all papers
-   would come with this --- e.g., C for code, D for data, R for reproducible
-
-   Annotate articles to indicate how much effort has been expended to make the
-   work reproducible (e.g., data publically available, code publically available,
-   results independently reproduced).
+In 2009, Biostatics [cite: peng2009reproducible]
 
 - journals beginning to do this
 
@@ -492,6 +522,7 @@ analysis environments and replication of the results for every publication.
     - reproducibilty editor (Roger Peng)
 
   - open research computation
+
 
 - potential difficulties
 
@@ -502,9 +533,7 @@ analysis environments and replication of the results for every publication.
 
   - independent replication still needed
 
-.. admonition:: Proposal X
-
-   Articles embedded with provenance information.
+**Articles embedded with provenance information.**
 
 - Madagascar
 - VisTrails
@@ -512,9 +541,9 @@ analysis environments and replication of the results for every publication.
 
   - http://www.stanford.edu/~vcs/AAAS2011/AAAS_slides_new.pdf
 
-.. admonition:: Proposal X
-
-   Adopt the Reproducible Research Standard (RRS) [stodden2009enabling]_
+**Adopt the Reproducible Research Standard (RRS).**
+   
+- discuss licenses proposed by Victoria [cite: stodden2009enabling]
 
 - http://www.stanford.edu/~vcs/AAAS2011/AAAS_slides_new.pdf
 
